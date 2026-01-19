@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "knapsack_range",
+      "name": "Рюкзак (подбор сумм по диапазону)",
+      "version": "0.1.0",
+      "description": "Подбирает возможные количества товаров так, чтобы итоговая сумма попала в диапазон.",
+      "entrypoint": "knapsack_range.plugin:Plugin",
+      "artifact": {
+        "type": "zip",
+        "url": "https://raw.githubusercontent.com/Johandmauer/urban-pancake-plugins/main/artifacts/knapsack_range_0.1.0.zip",
+        "sha256": "615fb85bc61d8ef47336c83e4610f81ae2b1dc680c85479b4817cfc84637cb0c"
+      }
+    }
+  ]
+}
